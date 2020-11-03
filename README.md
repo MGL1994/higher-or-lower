@@ -17,11 +17,11 @@ guess(myGuess, number);
 ```js
 const guess = require('higher-or-lower');
 
-console.log(guess(2, 1));
+console.log(guess(1, 2));
 
 // Higher!!!
 
-console.log(guess(1, 2));
+console.log(guess(2, 1));
 
 // Lower!!!
 
