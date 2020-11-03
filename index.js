@@ -8,12 +8,6 @@ function guess(myGuess, number) {
   }
 }
 
-const testHigher = guess(2, 10);
-const testLower = guess(10, 2);
-const testGuess = guess(10, 10);
-
-console.log(testHigher, testLower, testGuess);
-
 module.exports = {
   guess: guess,
 };
